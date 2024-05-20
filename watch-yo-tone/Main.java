@@ -18,7 +18,7 @@ public class Main {
 	frame.repaint();
     }
     private static void updateValueLabel() {
-        valueLabel.setText(dial.getValue() + "hz");
+        valueLabel.setText(dial.getValue() + "Hz / " + ((double) dial.getValue() / 1000) + " kHz");
     }
     private static void stop() {
         started = false;
