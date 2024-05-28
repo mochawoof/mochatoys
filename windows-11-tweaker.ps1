@@ -58,7 +58,7 @@ function update() {
 	$key = [Console]::ReadKey().Key
 	switch ($key) {
 		([ConsoleKey]::Q) {
-			quit
+			exit
 		}
 		([ConsoleKey]::UpArrow) {
 			if ($selected -eq 0) {
